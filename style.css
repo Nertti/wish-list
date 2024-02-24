@@ -24,7 +24,7 @@ body{
 }
 .card img{
     max-width: 300px;
-    border-radius: 13px;
+    border-radius: 25px;
     padding: 10px;
 }
 .card .top{
