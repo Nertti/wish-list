@@ -153,3 +153,8 @@ body {
         padding: 0 5px;
     }
 }
+@media (max-width: 380px) {
+    .card {
+        width: 119px;
+    }
+}
