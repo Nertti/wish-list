@@ -39,7 +39,7 @@ function loadSheet() {
                 link.textContent = 'В магазин';
 
                 const arrowIcon = document.createElement('img');
-                arrowIcon.src = '/images/fas_fa-arrow-right.svg';
+                arrowIcon.src = '/images/up-right.png';
                 arrowIcon.alt = 'Стрелка';
 
                 const price = document.createElement('div');
