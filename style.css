@@ -89,19 +89,30 @@ body {
     }
     .card {
         background: #f2f2f2;
-        padding: 20px;
+        padding: 10px 20px;
         border-radius: 25px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        margin: 10px;
-        max-width: 140px;
-        max-height: 150px;
+        margin: 9px;
+        width: 140px;
+        height: 200px;
+    }
+
+    .card.anny{
+        border: 1px solid #90002b;
+    }
+    .card.family{
+        border: 1px solid #ad19fe;
+    }
+    .card.dany{
+        border: 1px solid #08238d;
     }
 
     .card img {
-        max-width: 100px;
+        max-width: 120px;
+        max-height: 145px;
         border-radius: 25px;
         padding: 10px;
     }
@@ -119,10 +130,7 @@ body {
     }
 
     .card .whom {
-        background: #961f09;
-        color: #f2f2f2;
-        padding: 5px 10px;
-        border-radius: 13px;
+        display: none;
     }
 
     .card .bottom {

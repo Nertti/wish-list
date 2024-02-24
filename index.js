@@ -11,7 +11,12 @@ function loadSheet() {
             rows.forEach(rowData => {
                 const card = document.createElement('div');
                 card.classList.add('card');
-
+                if(rowData[1] === 'Семье')
+                    card.classList.add('family');
+                else if(rowData[1] === 'Аня')
+                    card.classList.add('anny');
+                else if(rowData[1] === 'Даник')
+                    card.classList.add('dany');
                 const top = document.createElement('div');
                 top.classList.add('top');
 
